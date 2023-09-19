@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5d3891;
+}
+
+
+
+.search {
+    margin-left: 100px;
+    color: #f5f5f5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-list {
+    margin-left: 800px;
+    margin-top: -30px;
+}
+
+.home {
+    cursor: pointer;
+    color: #ff9109;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contato {
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    color: #ff9109;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.voltar {
+    cursor: pointer;
+    color: #ff9109;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    margin-top: 15px;
+    margin-left: 500px;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container1 {
+    border-radius: 40px;
+    margin-top: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ff9109;
+    color: #ff9109;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-info {
+    text-align: center;
+}
+
+.card {
+    margin-top: 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 250px;
+    background-color: #361763;
+    flex: 1;
+    transition: .3s all ease;
+}
+
+.card:hover {
+    flex: 2s;
+    background-color: rgb(42, 22, 95);
+}
+
+.titulo-card {
+    margin-left: 80px;
+    color: #ff9109;
+
+}
+
+.sub-card {
+    margin-top: -20px;
+    margin-left: 10px;
+    color: #ff9109;
+}
+
+button {
+    cursor: pointer;
+    background-color: #5d3891;
+    color: #ff9109;
+    box-shadow: 4px 3px #1c002e;
+    border-radius: 7px;
+    padding: 9px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagem {
+    margin-top: 3px;
+    margin-left: 100px;
+}
+
+.botao {
+    margin-top: -10px;
+    margin-left: 110px;
+}
+
+@media screen and (max-width:767px) {
+
+}
